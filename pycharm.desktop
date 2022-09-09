@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=pyCharm
+Comment=pyCharm
+Exec=/home/student/pycharm-edu-2020.1.1/bin/pycharm.sh
+Icon=/home/student/pycharm-edu-2020.1.1/bin/pycharm.png
+Categories=Development;IDE;Python;
+Terminal=false
+Type=Application
+Keywords=pyCharm,Python,Jetbrains;
+

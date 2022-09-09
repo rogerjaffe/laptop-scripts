@@ -1,0 +1,3 @@
+#!/bin/bash
+
+DISPLAY=:0 /usr/bin/scrot '/home/student/.shots/%Y-%m-%d-%H%M%S.png' 
