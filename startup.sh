@@ -7,6 +7,7 @@
 
 # Reset wallpaper
 gsettings set org.gnome.desktop.background picture-uri file:///usr/share/backgrounds/mrj-wallpaper.jpg
+gsettings set org.gnome.desktop.background picture-uri-dark file:///usr/share/backgrounds/mrj-wallpaper.jpg
 
 # Move folders / files to retain
 mv /home/student/Desktop /home/temp
@@ -34,6 +35,9 @@ rm -rf /home/student/Public/*
 rm -rf /home/student/Templates/*
 rm -rf /home/student/Videos/*
 rm -rf /home/student/NetBeansProjects/*
+rm -rf /home/student/snap/bluej/227/*
+rm -rf /home/student/snap/common/*
+rm -rf /home/student/snap/current/*
 
 # Empty the trash using the trash-cli package
 trash-empty
